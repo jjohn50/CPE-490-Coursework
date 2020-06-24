@@ -1,10 +1,11 @@
-BEGIN {
-	prob = 0
+BEGIN{
+
+prob = 0
 }
 {
-	prob += (1/53552)
-	print($1, prob)
+prob +=0.1
+ print($1, prob)
 }
-END {
+END{
 
 }
